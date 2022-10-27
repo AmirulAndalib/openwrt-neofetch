@@ -4,14 +4,14 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=neofetch
-PKG_VERSION:=v1.0
+PKG_VERSION:=v0.1
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
 	SECTION:=Utilities
 	CATEGORY:=Utilities
-	TITLE:=Neofetch for openwrt
+	TITLE:=Neofetch ported for Openwrt devices
 	DEPENDS:=+bash
 	URL:=https://github.com/amirulandalib/openwrt-neofetch
 endef
@@ -20,7 +20,7 @@ define Package/$(PKG_NAME)/config
 endef
 
 define Package/$(PKG_NAME)/description
-Displays information about your OS
+Displays information about your Operating System
 endef
 
 define Build/Prepare
