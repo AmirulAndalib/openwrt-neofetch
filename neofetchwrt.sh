@@ -7,6 +7,9 @@ chmod -R +x /bin/neofetch
 echo -e "\e[32m[INFO]: Backing up Neofetch directories.\e[0m"
 cat << EOF >> /etc/sysupgrade.conf
 /bin/neofetch
+.config
+.config/neofetch
+.config/neofetch/config.conf
 EOF
 echo -e "\e[32m[INFO]: Making Neofetch to show up in the openwrt ssh login banner.\e[0m"
 sed -i 's/\[ -f \/etc\/banner \] && cat \/etc\/banner/#&/' /etc/profile
