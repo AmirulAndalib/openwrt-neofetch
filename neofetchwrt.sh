@@ -1,5 +1,5 @@
 echo -e "\e[32m[INFO]: Downloading Neofetch.\e[0m"
-wget -O /bin/neofetch "https://raw.githubusercontent.com/dylanaraps/neofetch/master/neofetch"
+wget -O /bin/neofetch "https://raw.githubusercontent.com/AmirulAndalib/openwrt-neofetch/master/neofetch"
 echo -e "\e[32m[INFO]: Installing bash.\e[0m"
 opkg install bash
 echo -e "\e[32m[INFO]: Installing Neofetch.\e[0m"
