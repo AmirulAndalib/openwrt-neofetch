@@ -6,6 +6,10 @@ One click installer:
 opkg update && opkg install bash && wget https://raw.githubusercontent.com/AmirulAndalib/openwrt-neofetch/master/neofetchwrt.sh -O neofetchwrt.sh && bash neofetchwrt.sh
 ```
 
+```
+apk update && apk upgrade && apk add bash && wget https://raw.githubusercontent.com/AmirulAndalib/openwrt-neofetch/master/neofetchwrt.sh -O neofetchwrt.sh && bash neofetchwrt.sh
+```
+
 ## Introduction
 Running neofetch on Openwrt
 Forked `https://github.com/dylanaraps/neofetch`
